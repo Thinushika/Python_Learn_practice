@@ -1,7 +1,9 @@
+#code refer from "edureka"
+
 import tkinter
 
 window = tkinter.Tk()
-window.title("Sign in")
+window.title("Grid")
 
 tkinter.Label(window, text="User name: ").grid(row=0)
 tkinter.Entry(window).grid(row=0,column=1)
